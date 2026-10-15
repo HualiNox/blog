@@ -1,0 +1,36 @@
+baseURL = "https://mewrix.com/"
+title = "旁路日志"
+locale = "zh-CN"
+
+[[module.imports]]
+path = "github.com/kaiiiz/hugo-theme-monochrome"
+
+# 首页搜索索引
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# 主题参数
+[params]
+navbar_title = "旁路日志"
+enable_toc = true
+toc_position = "right"
+enable_site_search = true
+enable_collapsible_toc = false
+color_scheme = "light"
+hide_navbar_on_scroll = false
+
+# 文章列表
+[params.list_layout]
+enable_group_by_year = true
+enable_show_date = true
+
+# 顶部导航
+[[menu.navbar]]
+name = "首页"
+url = "/"
+weight = 10
+
+[[menu.navbar]]
+name = "文章"
+url = "/posts/"
+weight = 20

@@ -1,0 +1,11 @@
+# Hugo build output and generated caches
+/public/
+/resources/_gen/
+/.hugo_build.lock
+/hugo_stats.json
+
+# Hugo-generated editor configuration with local module cache paths
+/assets/jsconfig.json
+
+# Local system files
+.DS_Store
